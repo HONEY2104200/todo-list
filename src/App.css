@@ -1,0 +1,55 @@
+/* Add this at the top of your CSS file */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+
+}
+
+#container{
+  text-align: center;
+  border: 5px solid  rgb(66, 65, 65);
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: auto;
+  padding: 20px;
+  background: #2b6838;
+}
+h2{
+  color: black;
+}
+
+input{
+  text-align: center;
+  padding: 2px;
+  width:300px;
+  height: 20px;
+  color: black;
+  background: #dad8d8;
+}
+
+li{
+  color: black;
+  border-bottom:2px solid black;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items:end;
+  
+}
+
+#del{
+  margin-bottom: 2px;
+  padding: 5px;
+}
+
+
